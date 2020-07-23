@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import "normalize.css";
-import App from "./App";
+import Routes from "./routes/Routes";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes />
   </React.StrictMode>,
   document.getElementById("root")
 );
